@@ -1,0 +1,7 @@
+services:
+  nginx-webapp-oss:
+    build: .
+    image: nginx-webapp-oss
+    restart: always
+    ports:
+      - 3000:80

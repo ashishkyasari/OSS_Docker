@@ -1,0 +1,7 @@
+services:
+  apache-webapp-oss:
+    build: .
+    image: apache-webapp-oss
+    restart: always
+    ports:
+      - 3000:80

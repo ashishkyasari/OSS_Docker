@@ -1,0 +1,7 @@
+services:
+ flask-login-page:
+    build: .
+    image: flask-login-page
+    restart: always
+    ports:
+      - 7000:7000

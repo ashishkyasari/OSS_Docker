@@ -1,0 +1,7 @@
+services:
+  flask-webapp-oss:
+    build: .
+    image: flask-webapp-oss
+    restart: always
+    ports:
+      - 5000:5000
